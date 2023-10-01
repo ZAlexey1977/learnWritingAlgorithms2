@@ -39,7 +39,25 @@ let log = console.log;
 // }
 // log(diffArray([], ["snuffleupagus", "cookie monster", "elmo"]));
 
-///////////////////////////////////// unit 1 ///////////////////////////////
+///////////////////////////////////// unit 3 ///////////////////////////////
+
+// function destroyer(arr) {
+//   let temp = arguments[0];
+//   let result = [];
+//   let out = [];
+//   for (let i = 1; i < arguments.length; i++) {
+//     out.push(arguments[i]);
+//   }
+
+//   for (let i = 0; i < temp.length; i++) {
+//     if (!out.includes(temp[i])) {
+//       result.push(temp[i]);
+//     }
+//   }
+//   return result;
+// }
+
+// log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
 
 ///////////////////////////////////// unit 1 ///////////////////////////////
 
