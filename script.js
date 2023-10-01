@@ -61,7 +61,40 @@ let log = console.log;
 
 ///////////////////////////////////// unit 1 ///////////////////////////////
 
+// let myArray = [
+//   { first: "Romeo", last: "Montague" },
+//   { first: "Mercutio", last: null },
+//   { first: "Tybalt", last: "Capulet" }
+// ];
+
+// function whatIsInAName(collection, source) {
+
+//   let result = [];
+//   for (let i = 0; i < collection.length; i++) {
+//     let obj = collection[i];
+//     log(obj);
+//     for (let key in obj) {
+//       log(key);
+//     }
+//   }
+// }
+
+// whatIsInAName(myArray, { last: "Capulet" });
+
 ///////////////////////////////////// unit 1 ///////////////////////////////
+
+// function spinalCase(str) {
+//   str = str.toLowerCase();
+//   str = str.split(' ');
+//   let out = '';
+//   let temp = str.map((el) => {
+//     out += el + '-';
+//     return out;
+//   });
+//   return out.toString().slice(0, -1);
+// }
+
+// log(spinalCase('This Is Spinal Tap'));
 
 ///////////////////////////////////// unit 1 ///////////////////////////////
 
