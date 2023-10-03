@@ -132,6 +132,30 @@ let log = console.log;
 
 ///////////////////////////////////// unit 8 ///////////////////////////////
 
+// function pairElement(str) {
+//   let temp = str.split('');
+//   let result = [];
+//   for (let i = 0; i < temp.length; i++) {
+//     let ar = [];
+//     if (temp[i] == 'A') {
+//       ar.push(temp[i], 'T');
+//       result.push(ar);
+//     } else if (temp[i] == 'T') {
+//       ar.push(temp[i], 'A');
+//       result.push(ar);
+//     } else if (temp[i] == 'G') {
+//       ar.push(temp[i], 'C');
+//       result.push(ar);
+//     } else if (temp[i] == 'C') {
+//       ar.push(temp[i], 'G');
+//       result.push(ar);
+//     }
+//   }
+//   return result;
+// }
+
+// log(pairElement("ATCGA"));
+
 ///////////////////////////////////// unit 9 ///////////////////////////////
 
 ///////////////////////////////////// unit 10 ///////////////////////////////
