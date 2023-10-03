@@ -105,39 +105,30 @@ let log = console.log;
 
 ///////////////////////////////////// unit 7 ///////////////////////////////
 
-function myReplace(str, before, after) {
-  let string = 'www';
-  let result = '';
-  //log(after)
-  // log(/[A-Z]/.test(before[0]));
-  // if ((/[A-Z]/.test(before[0]) && /[A-Z]/.test(after[0])) || (/[a-z]/.test(before[0]) && /[a-z]/.test(after[0]))) {
-  //   string = after;
-  //   //result = str.replace(before, after);
-  // }
-  if (/[A-Z]/.test(before[0]) && /[a-z]/.test(after[0])) {
-    log(before)
-    let out = after.split('');
-    log(out)
-    out[0] = out[0].toUpperCase();
-    string = out.join('');
-    log(string)
-    return str.replace(before, string);
-    log(result);
+// function myReplace(str, before, after) {
 
-  } else {
-    log(after)
-    let out = after.split('');
-    log(out)
-    out[0] = out[0].toLowerCase()
-    string = out.join('');
-    log(out)
-    // result = str.replace(before, out);
-  }
+//   let result = '';
+//   let string = 'www';
 
-  return str.replace(before, string);
-}
+//   if ((/[A-Z]/.test(before[0]) && /[A-Z]/.test(after[0])) || (/[a-z]/.test(before[0]) && /[a-z]/.test(after[0]))) {
+//     string = after;
+//     result = str.replace(before, string);
+//   } else if (/[A-Z]/.test(before[0]) && /[a-z]/.test(after[0])) {
+//     let out = after.split('');
+//     out[0] = out[0].toUpperCase();
+//     string = out.join('');
+//     return str.replace(before, string);
+//     log(result);
+//   } else {
+//     let out = after.split('');
+//     out[0] = out[0].toLowerCase()
+//     string = out.join('');
+//     result = str.replace(before, string);
+//   }
+//   return result;
+// }
 
-log(myReplace("A quick brown fox jumped over the lazy dog", "Jumped", "leaped"));
+// log(myReplace("A quick brown fox jumped over the lazy dog", "jumped", "Leaped"));
 
 ///////////////////////////////////// unit 8 ///////////////////////////////
 
