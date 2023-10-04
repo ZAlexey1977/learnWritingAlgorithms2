@@ -158,6 +158,21 @@ let log = console.log;
 
 ///////////////////////////////////// unit 9 ///////////////////////////////
 
+// function fearNotLetter(str) {
+//   let count = str.charCodeAt(0);
+//   let out = undefined;
+//   for (let i = 0; i < str.length; i++) {
+//     if (str.charCodeAt(i) === count) {
+//       count++;
+//     } else {
+//       out = String.fromCharCode(count);
+//     }
+//   }
+//   return out;
+// }
+
+// log(fearNotLetter("abcdefghjklmno"));
+
 ///////////////////////////////////// unit 10 ///////////////////////////////
 
 ///////////////////////////////////// unit 11 ///////////////////////////////
