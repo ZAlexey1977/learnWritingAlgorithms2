@@ -175,4 +175,18 @@ let log = console.log;
 
 ///////////////////////////////////// unit 10 ///////////////////////////////
 
+// function uniteUnique(arr) {
+//   let temp = [...arguments];
+//   let result = [];
+//   for (let i = 0; i < temp.length; i++) {
+//     for (let k = 0; k < temp[i].length; k++) {
+//       result.push(temp[i][k]);
+//     }
+//   }
+//   [...result] = new Set(result);
+//   return result;
+// }
+
+// log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
+
 ///////////////////////////////////// unit 11 ///////////////////////////////
