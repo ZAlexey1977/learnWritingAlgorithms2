@@ -190,3 +190,22 @@ let log = console.log;
 // log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
 
 ///////////////////////////////////// unit 11 ///////////////////////////////
+
+// function convertHTML(str) {
+//   let temp = str.split('');
+//   for (let i = 0; i < temp.length; i++) {
+//     if (temp[i] == '&') { temp[i] = '&amp;' }
+//     else if (temp[i] == '<') { temp[i] = '&lt;' }
+//     else if (temp[i] == '>') { temp[i] = '&gt;' }
+//     else if (temp[i] == '"') { temp[i] = '&quot;' }
+//     else if (temp[i] == "'") { temp[i] = '&apos;' }
+//     else {
+//       temp[i] = temp[i];
+//     }
+//   }
+//   return temp.join('');
+// }
+
+// log(convertHTML('Stuff in "quotation marks"'));
+
+///////////////////////////////////// unit 11 ///////////////////////////////
