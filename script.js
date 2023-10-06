@@ -227,7 +227,7 @@ let log = console.log;
 
 // log(sumFibs(10));
 
-///////////////////////////////////// unit 12 ///////////////////////////////
+///////////////////////////////////// unit 13 ///////////////////////////////
 
 // function sumPrimes(num) {
 //   let out = [];
@@ -245,10 +245,47 @@ let log = console.log;
 
 // log(sumPrimes(10));
 
-///////////////////////////////////// unit 12 ///////////////////////////////
+///////////////////////////////////// unit 14 ///////////////////////////////
 
-///////////////////////////////////// unit 12 ///////////////////////////////
+function smallestCommons(arr) {
+  arr = arr.sort((a, b) => a - b);
+  let temp = [];
+  for (let i = arr[0]; i <= arr[1]; i++) {
+    temp.push(i);
+  }
+  return temp.reduce((el, akkum) => { return akkum *= el });
 
-///////////////////////////////////// unit 12 ///////////////////////////////
+}
 
-///////////////////////////////////// unit 12 ///////////////////////////////
+log(smallestCommons([1, 5]));
+
+///////////////////////////////////// unit 15 ///////////////////////////////
+
+///////////////////////////////////// unit 16 ///////////////////////////////
+
+///////////////////////////////////// unit 17 ///////////////////////////////
+
+// function smallestCommons(arr) {
+//   // Setup
+//   const [min, max] = arr.sort((a, b) => a - b);
+//   const numberDivisors = max - min + 1;
+//   // Largest possible value for SCM
+//   let upperBound = 1;
+//   for (let i = min; i <= max; i++) {
+//     upperBound *= i;
+//   }
+//   // Test all multiples of 'max'
+//   for (let multiple = max; multiple <= upperBound; multiple += max) {
+//     // Check if every value in range divides 'multiple'
+//     let divisorCount = 0;
+//     for (let i = min; i <= max; i++) {
+//       // Count divisors
+//       if (multiple % i === 0) {
+//         divisorCount += 1;
+//       }
+//     }
+//     if (divisorCount === numberDivisors) {
+//       return multiple;
+//     }
+//   }
+// }
