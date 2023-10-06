@@ -229,19 +229,21 @@ let log = console.log;
 
 ///////////////////////////////////// unit 12 ///////////////////////////////
 
-function sumPrimes(num) {
-  let count = 0;
-  let out = [];
-  for (let i = 0; i < num; i++) {
-    if (i % 2 !== 0) {
-      count += i;
-      out.push(i);
-    }
-  }
-  return out;
-}
+// function sumPrimes(num) {
+//   let out = [];
+//   for (let i = 2; i <= num; i++) {
+//     if (out.every((el) => i % el !== 0)) {
+//       out.push(i);
+//     }
+//   }
+//   let count = 0;
+//   for (let i = 0; i < out.length; i++) {
+//     count += out[i];
+//   }
+//   return count;
+// }
 
-log(sumPrimes(10));
+// log(sumPrimes(10));
 
 ///////////////////////////////////// unit 12 ///////////////////////////////
 
