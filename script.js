@@ -274,6 +274,21 @@ let log = console.log;
 
 ///////////////////////////////////// unit 15 ///////////////////////////////
 
+// function dropElements(arr, func) {
+//   let originalLen = arr.length;
+
+//   for (let i = 0; i < originalLen; i++) {
+//     if (func(arr[0])) {
+//       break;
+//     } else {
+//       arr.shift();
+//     }
+//   }
+//   return arr;
+// }
+
+// log(dropElements([1, 2, 3, 4], function (n) { return n > 5; }));
+
 ///////////////////////////////////// unit 16 ///////////////////////////////
 
 ///////////////////////////////////// unit 17 ///////////////////////////////
