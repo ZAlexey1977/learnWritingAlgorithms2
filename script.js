@@ -291,4 +291,19 @@ let log = console.log;
 
 ///////////////////////////////////// unit 16 ///////////////////////////////
 
+// function steamrollArray(arr) {
+//   let result = [];
+
+//   arr.filter((el) => {
+//     if (Array.isArray(el)) {
+//       result = [...result, ...steamrollArray(el)];
+//     } else {
+//       result.push(el);
+//     }
+//   })
+//   return result;
+// }
+
+// log(steamrollArray([1, {}, [3, [[4]]]]));
+
 ///////////////////////////////////// unit 17 ///////////////////////////////
