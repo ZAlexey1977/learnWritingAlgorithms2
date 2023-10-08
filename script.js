@@ -318,6 +318,15 @@ let log = console.log;
 
 ///////////////////////////////////// unit 18 ///////////////////////////////
 
+// function truthCheck(collection, pre) {
+//   return collection.every((element) => {
+//     return element.hasOwnProperty(pre) && Boolean(element[pre]);
+//   });
+// }
+
+log(truthCheck([{ name: "Pikachu", number: 25, caught: 3 },
+{ name: "Togepi", number: 175, caught: 1 }], "number"));
+
 ///////////////////////////////////// unit 19 ///////////////////////////////
 
 ///////////////////////////////////// unit 20 ///////////////////////////////
