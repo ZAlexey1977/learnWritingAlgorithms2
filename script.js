@@ -323,11 +323,25 @@ let log = console.log;
 //     return element.hasOwnProperty(pre) && Boolean(element[pre]);
 //   });
 // }
-
-log(truthCheck([{ name: "Pikachu", number: 25, caught: 3 },
-{ name: "Togepi", number: 175, caught: 1 }], "number"));
+// log(truthCheck([{ name: "Pikachu", number: 25, caught: 3 },
+// { name: "Togepi", number: 175, caught: 1 }], "number"));
 
 ///////////////////////////////////// unit 19 ///////////////////////////////
+
+// function addTogether() {
+//   const [first, second] = arguments;
+
+//   function addSecond(second) {
+//     if (typeof (second) === "number") return first + second;
+//   }
+
+//   if (typeof (first) === "number") {
+//     if (arguments.length === 1) return addSecond;
+//     if (arguments.length === 2) return addSecond(second);
+//   }
+// }
+
+// log(addTogether('2'));
 
 ///////////////////////////////////// unit 20 ///////////////////////////////
 
