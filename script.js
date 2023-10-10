@@ -345,6 +345,41 @@ let log = console.log;
 
 ///////////////////////////////////// unit 20 ///////////////////////////////
 
+const Person = function (first, last) {
+
+  let firstName = first;
+  let lastName = last;
+
+  this.getFirstName = function () {
+    return firstName;
+  };
+
+  this.getLastName = function () {
+    return lastName;
+  };
+
+  this.getFullName = function () {
+    return `${this.getFirstName()} ${this.getLastName()}`;
+  };
+  this.setFirstName = function (first) {
+    return firstName = first;
+  };
+
+  this.setLastName = function (last) {
+    return lastName = last;
+  };
+
+  this.setFullName = function (first, last) {
+    this.setLastName(first);
+    this.setLastName(last);
+    return this.getFirstName();
+  };
+
+}
+
+let user = new Person('Bob', 'Dilan');
+user.setFirstName('Nick');
+log(user.getFullName());
 ///////////////////////////////////// unit 21 ///////////////////////////////
 
 ///////////////////////////////////// unit 22 ///////////////////////////////
