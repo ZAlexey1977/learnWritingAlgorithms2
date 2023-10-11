@@ -345,42 +345,65 @@ let log = console.log;
 
 ///////////////////////////////////// unit 20 ///////////////////////////////
 
-const Person = function (first, last) {
+// const Person = function (first, last) {
 
-  let firstName = first;
-  let lastName = last;
+//   let firstName = first;
+//   let lastName = last;
 
-  this.getFirstName = function () {
-    return firstName;
-  };
+//   this.getFirstName = function () {
+//     return firstName;
+//   };
 
-  this.getLastName = function () {
-    return lastName;
-  };
+//   this.getLastName = function () {
+//     return lastName;
+//   };
 
-  this.getFullName = function () {
-    return `${this.getFirstName()} ${this.getLastName()}`;
-  };
-  this.setFirstName = function (first) {
-    return firstName = first;
-  };
+//   this.getFullName = function () {
+//     return `${this.getFirstName()} ${this.getLastName()}`;
+//   };
+//   this.setFirstName = function (first) {
+//     return firstName = first;
+//   };
 
-  this.setLastName = function (last) {
-    return lastName = last;
-  };
+//   this.setLastName = function (last) {
+//     return lastName = last;
+//   };
 
-  this.setFullName = function (first, last) {
-    this.setLastName(first);
-    this.setLastName(last);
-    return this.getFirstName();
-  };
+//   this.setFullName = function (first, last) {
+//     this.setFirstName(first);
+//     this.setLastName(last);
+//     return this.getFirstName();
+//   };
 
-}
+// }
 
-let user = new Person('Bob', 'Dilan');
-user.setFirstName('Nick');
-log(user.getFullName());
+// let user = new Person('Bob', 'Dilan');
+// user.setFullName('Haskell', 'Curry');
+// log(user.getFullName());
+
 ///////////////////////////////////// unit 21 ///////////////////////////////
+
+// function orbitalPeriod(arr) {
+//   const GM = 398600.4418;
+//   const earthRadius = 6367.4447;
+//   let a = 2 * Math.PI;
+//   const newArr = [];
+
+//   const getOrbPeriod = function (obj) {
+//     const c = Math.pow(earthRadius + obj.avgAlt, 3);
+//     const b = Math.sqrt(c / GM);
+//     const orbPeriod = Math.round(a * b);
+//     return { name: obj.name, orbitalPeriod: orbPeriod };
+//   };
+
+//   for (let elem in arr) {
+//     newArr.push(getOrbPeriod(arr[elem]));
+//   }
+
+//   return newArr;
+// }
+
+// log(orbitalPeriod([{ name: "sputnik", avgAlt: 35873.5553 }]));
 
 ///////////////////////////////////// unit 22 ///////////////////////////////
 
