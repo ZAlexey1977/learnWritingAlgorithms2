@@ -61,25 +61,29 @@ let log = console.log;
 
 ///////////////////////////////////// unit 4 ///////////////////////////////
 
-// let myArray = [
-//   { first: "Romeo", last: "Montague" },
-//   { first: "Mercutio", last: null },
-//   { first: "Tybalt", last: "Capulet" }
-// ];
+// let myArray = [{ "apple": 1 }, { "apple": 1 }, { "apple": 1, "bat": 2 }];
 
 // function whatIsInAName(collection, source) {
 
 //   let result = [];
+
 //   for (let i = 0; i < collection.length; i++) {
 //     let obj = collection[i];
-//     log(obj);
-//     for (let key in obj) {
-//       log(key);
+//     let flag = false;
+
+//     for (let key in source) {
+//       if (obj[key] !== source[key]) {
+//         flag = true;
+//       }
+//     }
+//     if (!flag) {
+//       result.push(obj);
 //     }
 //   }
+//   return result;
 // }
 
-// whatIsInAName(myArray, { last: "Capulet" });
+// log(whatIsInAName(myArray, { "apple": 1 }));
 
 ///////////////////////////////////// unit 5 ///////////////////////////////
 
